@@ -25,7 +25,7 @@ end
 # Accepts a key and a value as parameters and returns a hash with this key/value pair inside
 
 def my_hash_creator(key, value)
-  hash = {key => value}
+  {key => value}
 end
 
 # Returns the value corresponding to the provided key
